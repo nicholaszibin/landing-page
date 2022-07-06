@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    
 }
 
 a {
@@ -13,9 +14,11 @@ a {
 header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 24px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .logo {
@@ -35,8 +38,12 @@ header {
 .main-hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 50px;
 }
 
 .hero {
@@ -53,11 +60,15 @@ header {
 .left-container {
     display: flex;
     flex: 1;
+    gap: 8px;
     flex-direction: column;
 }
 
 .right-container {
     display: flex;
+    background-color: #a0a0a0;
+    justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
@@ -68,7 +79,7 @@ button {
     padding: 4px 20px;
     text-align: center;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 7px;
     border: none;
     max-width: fit-content;
 }
