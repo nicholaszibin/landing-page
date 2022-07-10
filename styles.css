@@ -1,14 +1,13 @@
 /*styles.css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
-    
 }
 
 a {
     color: inherit;
     text-decoration: inherit;
-
 }
 
 header {
@@ -43,7 +42,7 @@ header {
     padding-top: 50px;
     padding-left: 15%;
     padding-right: 15%;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 .hero {
@@ -66,10 +65,14 @@ header {
 
 .right-container {
     display: flex;
-    background-color: #a0a0a0;
-    justify-content: center;
-    align-items: center;
     flex: 1;
+}
+
+.right-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    
 }
 
 button {
@@ -82,4 +85,114 @@ button {
     border-radius: 7px;
     border: none;
     max-width: fit-content;
+}
+
+.info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.random-info {
+    padding-top: 12px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-subtext {
+    display: flex;
+    flex-wrap: wrap;
+    width: min-content;
+    gap: 6px;
+    flex-direction: column;
+}
+
+.image-subtext img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 7px;
+    border: none;
+}
+
+.image-subtext .subtext {
+    color: #c4c3c4;
+    font-size: 18px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #EFE7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote .text {
+    padding-top: 64px;
+    width: 700px;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote .source {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 24px;
+    text-align: right;
+    width: 700px;
+    padding-bottom: 64px;
+} 
+
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 24px;
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 7px;
+}
+.box .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text .subtext {
+    color: #EFE7EB;
+    font-size: 14px;
+}
+
+.box button {
+    border: solid;
+    border-color: #F9FAF8;
+}
+
+.copyright {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 12px;
+    padding: 24px;
 }
